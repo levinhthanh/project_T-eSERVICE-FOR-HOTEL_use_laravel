@@ -1,0 +1,61 @@
+.container_admin{
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+}
+/* LEFT */
+.container_left{
+    width: 19%;
+    color: darkgrey;
+    background-color: #212529;
+    height: 100vh;
+}
+
+.name_page{
+    padding: 0.5vw;
+    border-bottom: solid 0.01vw darkgrey;
+}
+#logo_page{
+    width: 3vw;
+    padding-left: 1vw;
+}
+#name_page{
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    font-size: 1.4vw;
+}
+
+.name_admin{
+    padding: 0.5vw;
+    border-bottom: solid 0.01vw darkgrey;
+}
+#img_admin{
+    width: 3vw;
+    padding-left: 1vw;
+}
+#name_admin{
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    color: darkorange;
+}
+
+.drop_button{
+    width: 90%;
+    margin: 5%;
+}
+#icon_list{
+    font-size: 1vw;
+    padding: 0 0.5vw;
+}
+#action_label{
+    font-size: 1vw;
+    padding: 0 0.5vw;
+    padding-right: 2vw;
+}
+
+/* RIGHT */
+.container_right{
+    width: 85%;
+}
